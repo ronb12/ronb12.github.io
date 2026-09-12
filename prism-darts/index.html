@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Prism Darts — carnival balloon dart game for iPhone. Match colors, build combos, and keep storm balloons from escaping." />
+  <title>Prism Darts — Carnival balloon darts</title>
+  <style>
+    :root {
+      --ink: #1f2937;
+      --coral: #ed475c;
+      --sky: #5bb8d4;
+      --gold: #f5c85a;
+      --cream: #fff6ea;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 18%, rgba(91, 184, 212, 0.32), transparent 42%),
+        radial-gradient(circle at 88% 12%, rgba(237, 71, 92, 0.22), transparent 40%),
+        linear-gradient(180deg, #7ec4ef 0%, #fbc87a 100%);
+      min-height: 100vh;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 3.5rem 1.5rem 4rem;
+    }
+    h1 {
+      font-size: clamp(2.2rem, 6vw, 3.2rem);
+      letter-spacing: -0.03em;
+      margin: 0 0 0.4rem;
+      color: #fff;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.18);
+    }
+    h2 { font-size: 1.05rem; margin: 0 0 0.5rem; }
+    .tag {
+      display: inline-block;
+      font-weight: 700;
+      color: #fff8e7;
+      margin-bottom: 1rem;
+    }
+    p { font-size: 1.05rem; margin: 0 0 1rem; }
+    .lede { color: #fff; text-shadow: 0 1px 6px rgba(0,0,0,0.16); }
+    .card {
+      margin-top: 1.5rem;
+      padding: 1.25rem 1.35rem;
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid rgba(31, 41, 55, 0.08);
+      border-radius: 18px;
+    }
+    a { color: #0f766e; font-weight: 700; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { margin: 0.35rem 0 0; padding-left: 1.2rem; }
+    li { margin-bottom: 0.35rem; }
+    .footer { margin-top: 2rem; font-size: 0.95rem; color: rgba(31, 41, 55, 0.82); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="tag">Bradley Virtual Solutions, LLC</div>
+    <h1>Prism Darts</h1>
+    <p class="lede">A carnival balloon booth for iPhone. Drag from the dart stand, throw, and pop colorful balloons. Matching colors builds a combo.</p>
+
+    <div class="card">
+      <h2>How to play</h2>
+      <ul>
+        <li>Drag from the wooden stand and release to throw</li>
+        <li>One dart is in the air at a time, and you have 3 lives</li>
+        <li>Match candy colors to raise your combo</li>
+        <li>Gold, steel, bomb, heart, prism, and camouflage balloons change the round</li>
+        <li>Storm balloons cost a life if they float off the top</li>
+        <li>Optional Game Center adds ranks, achievements, and friend duels</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Privacy</h2>
+      <ul>
+        <li>No ads, analytics, or In-App Purchases</li>
+        <li>Progress stays on device unless you use optional Game Center</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <p>
+        <a href="privacy.html">Privacy Policy</a> ·
+        <a href="support.html">Support</a> ·
+        <a href="https://github.com/ronb12/prism-darts">GitHub</a>
+      </p>
+    </div>
+  </main>
+</body>
+</html>
